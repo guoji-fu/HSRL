@@ -7,14 +7,14 @@ $ python hsrl.py --input 'data/movielens/train_edges.txt' --output 'output/movie
 ```
 >noted: your can just checkout hsrl.py to get what you want.
 ### Input
-Your input graph data should be a **txt** file and be under **Data folder** 
+Your input graph data should be a **txt** file and be under **data** folder.
 #### file format
 The txt file should be **edgelist**.
 
 #### txt file sample
 	0 163
-  0 359
-  0 414
+	0 359
+	0 414
 	...
 	5297 4973
 
@@ -24,8 +24,8 @@ The txt file should be **edgelist**.
 If you find *HSRL* useful in your research, please cite our paper:
 
 	@article{fu2019learning,
-  title={Learning Topological Representation for Networks via Hierarchical Sampling},
-  author={Fu, Guoji and Hou, Chengbin and Yao, Xin},
-  journal={arXiv preprint arXiv:1902.06684},
-  year={2019}
-} 
+	 title={Learning Topological Representation for Networks via Hierarchical Sampling},
+	 author={Fu, Guoji and Hou, Chengbin and Yao, Xin},
+	 journal={arXiv preprint arXiv:1902.06684},
+	 year={2019}
+	} 
