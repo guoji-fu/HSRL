@@ -22,10 +22,13 @@ The txt file should be **edgelist**.
 > noted: The graph should be an undirected graph, so if (I  J) exist in the Input file, (J  I) should not.
 ### Citing
 If you find *HSRL* useful in your research, please cite our paper:
-
-	@article{fu2019learning,
-	 title={Learning Topological Representation for Networks via Hierarchical Sampling},
-	 author={Fu, Guoji and Hou, Chengbin and Yao, Xin},
-	 journal={arXiv preprint arXiv:1902.06684},
-	 year={2019}
-	} 
+```
+@inproceedings{fu2019learning,
+  title={Learning topological representation for networks via hierarchical sampling},
+  author={Fu, Guoji and Hou, Chengbin and Yao, Xin},
+  booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2019},
+  organization={IEEE}
+}
+```
